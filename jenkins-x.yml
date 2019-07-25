@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-beta
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-beta
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jx.formed.ai
+  pipelines: {}

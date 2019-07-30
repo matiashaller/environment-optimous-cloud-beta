@@ -20,7 +20,7 @@ pipeline {
     }
     stage('Update Environment') {
       when {
-        branch 'beta'
+        branch 'master'
       }
       steps {
         container('maven') {
